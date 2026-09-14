@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Dominic Piccini 09/13/2026 -->
 <prod:catalog xmlns:prod="http://tigertech.example/products">
    <prod:product prod:sku="TT-1001" prod:category="CAT-LAP">
       <prod:name>Aurora 14 Ultrabook</prod:name>
