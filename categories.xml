@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TigerTech Assignment 1 - the "categories" vocabulary.
-     ONE category is provided as a model. Add at least one more so the
-     file has 2+ categories total (graduate students: 3+). -->
 <cat:categories xmlns:cat="http://tigertech.example/categories">
-
    <cat:category cat:catID="CAT-LAP">
       <cat:name>Laptops</cat:name>
-      <cat:blurb><![CDATA[Ultrabooks & workstations. Note the & and < are safe inside CDATA.]]></cat:blurb>
+      <cat:blurb><![CDATA[Portable computers for school, work, and creative projects with power for multitasking.]]></cat:blurb>
    </cat:category>
-
-   <!-- TODO: add CAT-AUD (Audio) and CAT-ACC (Accessories) here,
-        following the exact pattern above. -->
-
+   <cat:category cat:catID="CAT-AUD">
+      <cat:name>Audio</cat:name>
+      <cat:blurb><![CDATA[Headphones, earbuds, and speakers for clear listening at home & on the go.]]></cat:blurb>
+   </cat:category>
+   <cat:category cat:catID="CAT-ACC">
+      <cat:name>Accessories</cat:name>
+      <cat:blurb><![CDATA[Useful add-ons, adapters, and everyday gear for a cleaner <desk> setup.]]></cat:blurb>
+   </cat:category>
 </cat:categories>
