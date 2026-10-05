@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Dominic Piccini 09/13/2026 -->
+<!-- TigerTech | XML Assignment 2 | provided data (adapted from Assignment 1) -->
 <prod:catalog xmlns:prod="http://tigertech.example/products">
-   <prod:product prod:sku="TT-1001" prod:category="CAT-LAP">
+   <prod:product sku="TT-1001" category="CAT-LAP">
       <prod:name>Aurora 14 Ultrabook</prod:name>
       <prod:price currency="USD">1299.00</prod:price>
       <prod:stock>14</prod:stock>
-      <prod:description><![CDATA[14-inch OLED laptop with 32 GB RAM & 1 TB SSD for portable work.]]></prod:description>
+      <prod:description><![CDATA[14" OLED, 32 GB RAM, 1 TB SSD.]]></prod:description>
    </prod:product>
-   <prod:product prod:sku="TT-1002" prod:category="CAT-LAP">
-      <prod:name>Summit Pro 16</prod:name>
+   <prod:product sku="TT-1002" category="CAT-LAP">
+      <prod:name>Aurora 16 Pro</prod:name>
       <prod:price currency="USD">1899.00</prod:price>
-      <prod:stock>8</prod:stock>
-      <prod:description><![CDATA[16-inch performance notebook built for design, code, and data <analysis>.]]></prod:description>
+      <prod:stock>6</prod:stock>
+      <prod:description><![CDATA[16" mini-LED creator laptop.]]></prod:description>
    </prod:product>
-   <prod:product prod:sku="TT-2001" prod:category="CAT-AUD">
-      <prod:name>Pulse Wireless Headphones</prod:name>
-      <prod:price currency="USD">249.99</prod:price>
-      <prod:stock>32</prod:stock>
-      <prod:description><![CDATA[Noise-canceling headphones with long battery life & comfortable ear cups.]]></prod:description>
+   <prod:product sku="TT-2001" category="CAT-AUD">
+      <prod:name>SoundWave Buds</prod:name>
+      <prod:price currency="USD">149.00</prod:price>
+      <prod:stock>40</prod:stock>
+      <prod:description><![CDATA[Wireless earbuds with ANC.]]></prod:description>
    </prod:product>
-   <prod:product prod:sku="TT-3001" prod:category="CAT-ACC">
-      <prod:name>DockMaster USB-C Hub</prod:name>
-      <prod:price currency="USD">79.95</prod:price>
-      <prod:stock>45</prod:stock>
-      <prod:description><![CDATA[Compact USB-C hub with HDMI, Ethernet, and card reader support.]]></prod:description>
+   <prod:product sku="TT-2002" category="CAT-AUD">
+      <prod:name>SoundWave Over-Ear</prod:name>
+      <prod:price currency="USD">249.00</prod:price>
+      <prod:stock>12</prod:stock>
+      <prod:description><![CDATA[Over-ear headphones, 40-hour battery.]]></prod:description>
+   </prod:product>
+   <prod:product sku="TT-3001" category="CAT-ACC">
+      <prod:name>GripStand Laptop Stand</prod:name>
+      <prod:price currency="USD">59.00</prod:price>
+      <prod:stock>75</prod:stock>
+      <prod:description><![CDATA[Aluminium stand, adjustable.]]></prod:description>
+   </prod:product>
+   <prod:product sku="TT-3002" category="CAT-ACC">
+      <prod:name>HyperCharge 65W USB-C</prod:name>
+      <prod:price currency="USD">39.00</prod:price>
+      <prod:stock>120</prod:stock>
+      <prod:description><![CDATA[Compact GaN charger.]]></prod:description>
    </prod:product>
 </prod:catalog>
