@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TigerTech - Order Report</title>
+<style type="text/css">
+               body {
+               font-family: Arial, sans-serif;
+               margin: 24px;
+               color: #333;
+               }
+               h1 { color: #d9531e; }
+               h2 { border-bottom: 2px solid #ddd; padding-bottom: 4px; margin-top: 28px; }
+               table {
+               border-collapse: collapse;
+               width: 100%;
+               margin-bottom: 24px;
+               }
+               th, td {
+               border: 1px solid #ccc;
+               padding: 8px 12px;
+               text-align: left;
+               }
+               th {
+               background-color: #f5f5f5;
+               }
+               .number {
+               text-align: right;
+               }
+               .warning {
+               background-color: #ffe6e6;
+               color: #c00;
+               font-weight: bold;
+               }
+               .order-header {
+               background-color: #fafafa;
+               padding: 8px;
+               margin-top: 16px;
+               font-weight: bold;
+               }
+               tfoot tr {
+               font-weight: bold;
+               background-color: #f9f9f9;
+               }
+            </style>
+</head>
+<body>
+<h1>TigerTech Order Report</h1>
+<h2>Order summary</h2>
+<table>
+<thead><tr>
+<th>Order</th>
+<th>Customer</th>
+<th>Date</th>
+<th class="number">Items</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>ORD-1001</td>
+<td>Jordan Lee</td>
+<td>2026-06-14</td>
+<td class="number">3</td>
+</tr>
+<tr>
+<td>ORD-1002</td>
+<td>Priya Patel</td>
+<td>2026-06-15</td>
+<td class="number">4</td>
+</tr>
+<tr>
+<td>ORD-1003</td>
+<td>Sam Rivera</td>
+<td>2026-06-16</td>
+<td class="number">20</td>
+</tr>
+</tbody>
+</table>
+<h2>Order details</h2>
+<div class="order-header">
+         Order ORD-1001 —
+         Jordan Lee (2026-06-14)
+      </div>
+<table>
+<thead><tr>
+<th>SKU</th>
+<th>Product</th>
+<th>Category</th>
+<th class="number">Price</th>
+<th class="number">Qty</th>
+<th class="number">Total</th>
+<th>Status</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>TT-1001</td>
+<td>Aurora 14 Ultrabook</td>
+<td>Laptops</td>
+<td class="number">$1,299.00</td>
+<td class="number">1</td>
+<td class="number">$1,299.00</td>
+<td>
+                           In Stock
+                        </td>
+</tr>
+<tr>
+<td>TT-3002</td>
+<td>HyperCharge 65W USB-C</td>
+<td>Accessories</td>
+<td class="number">$39.00</td>
+<td class="number">2</td>
+<td class="number">$78.00</td>
+<td>
+                           In Stock
+                        </td>
+</tr>
+</tbody>
+<tfoot><tr>
+<td colspan="4" style="text-align: right;">Total Items:</td>
+<td class="number">3</td>
+<td colspan="2"></td>
+</tr></tfoot>
+</table>
+<div class="order-header">
+         Order ORD-1002 —
+         Priya Patel (2026-06-15)
+      </div>
+<table>
+<thead><tr>
+<th>SKU</th>
+<th>Product</th>
+<th>Category</th>
+<th class="number">Price</th>
+<th class="number">Qty</th>
+<th class="number">Total</th>
+<th>Status</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>TT-2001</td>
+<td>SoundWave Buds</td>
+<td>Audio</td>
+<td class="number">$149.00</td>
+<td class="number">3</td>
+<td class="number">$447.00</td>
+<td>
+                           In Stock
+                        </td>
+</tr>
+<tr>
+<td>TT-3001</td>
+<td>GripStand Laptop Stand</td>
+<td>Accessories</td>
+<td class="number">$59.00</td>
+<td class="number">1</td>
+<td class="number">$59.00</td>
+<td>
+                           In Stock
+                        </td>
+</tr>
+</tbody>
+<tfoot><tr>
+<td colspan="4" style="text-align: right;">Total Items:</td>
+<td class="number">4</td>
+<td colspan="2"></td>
+</tr></tfoot>
+</table>
+<div class="order-header">
+         Order ORD-1003 —
+         Sam Rivera (2026-06-16)
+      </div>
+<table>
+<thead><tr>
+<th>SKU</th>
+<th>Product</th>
+<th>Category</th>
+<th class="number">Price</th>
+<th class="number">Qty</th>
+<th class="number">Total</th>
+<th>Status</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>TT-1002</td>
+<td>Aurora 16 Pro</td>
+<td>Laptops</td>
+<td class="number">$1,899.00</td>
+<td class="number">1</td>
+<td class="number">$1,899.00</td>
+<td>
+                           In Stock
+                        </td>
+</tr>
+<tr class="warning">
+<td>TT-2002</td>
+<td>SoundWave Over-Ear</td>
+<td>Audio</td>
+<td class="number">$249.00</td>
+<td class="number">15</td>
+<td class="number">$3,735.00</td>
+<td>
+                           Out of Stock! (Requested: 15, Available: 12)
+                        </td>
+</tr>
+<tr>
+<td>TT-3002</td>
+<td>HyperCharge 65W USB-C</td>
+<td>Accessories</td>
+<td class="number">$39.00</td>
+<td class="number">4</td>
+<td class="number">$156.00</td>
+<td>
+                           In Stock
+                        </td>
+</tr>
+</tbody>
+<tfoot><tr>
+<td colspan="4" style="text-align: right;">Total Items:</td>
+<td class="number">20</td>
+<td colspan="2"></td>
+</tr></tfoot>
+</table>
+</body>
+</html>
